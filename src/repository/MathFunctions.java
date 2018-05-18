@@ -10,7 +10,7 @@ public class MathFunctions {
 			return n*factorial((n-1));
 	}
 
-
+	/*Computes the area of a circle given its radius*/
 	public static double computeCircleArea(double radius){
 		return Math.PI * radius * radius;
 	}
