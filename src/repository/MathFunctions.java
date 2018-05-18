@@ -15,6 +15,9 @@ public class MathFunctions {
 		return Math.PI * radius * radius;
 	}
 
-
+	/*Computes the area of a circle given its radius*/
+	public static double computeCircleCircumference(double radius){
+		return Math.PI * 2 * radius;
+	}
 
 }
