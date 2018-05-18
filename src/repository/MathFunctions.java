@@ -7,7 +7,7 @@ public class MathFunctions {
 		if(n<=1)
 			return 1;
 		else
-			return n*factorial((n-1));
+			return (n-1)*factorial((n-1));
 	}
 
 	/*Computes the area of a circle given its radius*/
