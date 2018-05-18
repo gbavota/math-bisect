@@ -20,4 +20,8 @@ public class MathFunctions {
 		return Math.PI * 2 * radius;
 	}
 
+	public static int squared(int n){
+		return Math.pow(n,2);
+	}
+
 }
