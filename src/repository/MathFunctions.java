@@ -21,7 +21,7 @@ public class MathFunctions {
 	}
 
 	/*Squared method implemented*/
-	public static int squared(int n){
+	public static double squared(int n){
 		return Math.pow(n,2);
 	}
 
